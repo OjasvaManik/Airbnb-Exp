@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.075);
+}
+
+.app--container {
+    background: white;
+    /*width: 550px;*/
+    height: 853px;
+    border-radius: 9px 9px 9px 9px;
+}
+
+.navbar {
+    font-size: calc(3px + 1vw);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    /*padding-top: 20px;*/
+    color: orange;
+    /*width: 530px;*/
+    height: 70px;
+    box-shadow: rgba(41,13,53,0.5) 0px 1px 1px;
+    border-radius: 9px 9px 0 0;
+}
+
+.navbar > p {
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    /*width: 530px;*/
+    padding-top: 10px;
+}
+
+.hero--body {
+    width: 396px;
+    height: 232px;
+    border-radius: 9px;
+    background: url("../public/images/hero.png");
+    background-size: cover;
+}
+
+.intro {
+    padding-left: 30px;
+}
+
+.intro > h1 {
+    width: 347px;
+    height: 40px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.intro > p {
+    width: 320px;
+    height: 56px;
+    text-align: start;
+}
+
+.card--wrapper {
+    padding-left: 10px;
+}
+
+.card--image {
+    width: 176px;
+    height: 235px;
+    border-radius: 9px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card--content {
+    font-size: 10px;
+    width: 176px;
+    height: 58px;
+}
+
+.card--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    width: 530px;
+    overflow-x: hidden;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card--image > div {
+    padding: 5px 0 0 5px;
+}
+
+.card--image > div > button {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    min-width: 61px;
+    height: 20px;
+    border: none;
+    /*border-radius: 2px;*/
+    background: rgba(41,13,53,0.72);
+    color: white;
+}
